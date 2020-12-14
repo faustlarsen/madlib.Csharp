@@ -1,6 +1,6 @@
 using MadLips.Models; // makes our model available to our controller:
 using Microsoft.AspNetCore.Mvc; //  imports functionality from the ASP.NET Core MVC package listed in our .csproj
-                                // This line imports the Microsoft.AspNetCore.Mvc namespace into our controller, so we have access to ASP.NET Core's built in Controller 
+
 namespace MadLips.Controllers 
 {
   public class HomeController : Controller // tell .NET that HomeController should inherit or extend functionality from ASP.NET Core's built-in Controller class that we import with our using statement.
