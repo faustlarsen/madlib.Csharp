@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Create a Custom Postcard!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write a beautiful story</h1>
+      <form action="/madlips" method="post"> <!-- tells ASP.NET Core MVC where to submit info provided through this form. This attribute must be set to the path of another route in our controller. -->
+        <div class="form-group">
+          <label for="person1">A name</label>
+          <input id="person1" name="person1" type="text">
+        </div>
+        <div class="form-group">
+          <label for="person2">Another name</label>
+          <input id="person2" name="person2" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">An animal</label>
+          <input id="animal" name="animal" type="text">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">An Exclamation</label>
+          <input id="exclamation" name="exclamation" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">A past tense verb</label>
+          <input id="verb" name="verb" type="text">
+        </div>
+        <div class="form-group">
+          <label for="noun">An noun</label>
+          <input id="noun" name="noun" type="text">
+        </div>
+        <button type="submit" class="btn btn-primary">Go!</button>
+      </form>
+    </div>
+  </body>
+</html>
